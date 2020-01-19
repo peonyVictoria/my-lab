@@ -1,0 +1,278 @@
+@media (max-width: 1140px){
+	.header-menu nav{
+		height: 15px;
+	}
+	.nav-list{
+		display: none;
+		position: absolute;
+		top: 52px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		text-align: center;
+		padding: 0;
+		margin: 30px 0;
+		background-color: rgba(0, 0, 0, 0.75);
+	}
+	.nav-list li{
+		display: block;
+		padding: 10px 0;
+	}
+	.nav-list li + li{
+		margin-left: 0;
+	}
+	.btn__menu{
+		display: block;
+	}
+	.reviews-text{
+		max-width: 538px;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.creative-title{
+		letter-spacing: 1px;
+		line-height: 26px;
+	}
+	.team-list{
+		justify-content: center;
+	}
+	.team-item{
+		margin: 15px;
+	}
+	.news-list{
+		justify-content: center;
+	}
+	.news-item{
+		margin: 10px;
+	}
+}
+
+@media (max-width: 960px){
+	.creative-list{
+		flex-direction: column;
+	}
+	.creative-item{
+		width: 100%;
+	}
+	.creative-text{
+		max-width: 750px;
+		margin: 0 auto;
+	}
+	.news-list{
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.news-item{
+		width: 100%;
+	}
+	.news-item + .news-item{
+		margin-top: 40px;
+	}
+	.skills-list{
+		flex-direction: column;
+		align-items: center;
+	}
+	.skills-item{
+		width: 80%;
+	}
+	.happy-list{
+		justify-content: center;
+	}
+	.happy-item{
+		margin-bottom: 20px;
+	}
+	.happy-item{
+		margin: 20px;
+	}
+	.links__inner{
+		flex-direction: column;
+	}
+	.links-col{
+		width: 100%;
+	}
+	.latest-item{
+		justify-content: flex-start;
+	}
+	.footer__inner{
+		flex-direction: column-reverse;
+	}
+	.footer-copywrite{
+		margin: 10px;
+	}
+}
+
+@media (max-width: 720px){
+	.portfolio__inner,
+	.bridge__inner,
+	.news__inner,
+	.team__inner,
+	.skills__inner,
+	.happy__inner,
+	.reviews__inner,
+	.customers__inner,
+	.links__inner,
+	.map__inner,
+	.footer__inner{
+		padding: 40px 0;
+	}
+	.reviews-text{
+		max-width: 672px;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.slider-title{
+		font-size: 38px;
+		line-height: 40px;
+		letter-spacing: 2px;
+	}
+	.customers-list{
+		justify-content: center;
+		margin-top: 15px;
+	}
+	.footer-menu{
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer-item+.footer-item{
+		margin-left: 0;
+	}
+	.footer-copywrite{
+		text-align: center;
+	}
+}
+
+@media (max-width: 540px){
+	h2 {
+		font-size: 30px;
+		letter-spacing: 1px;
+	}
+	h3 {
+		font-size: 14px;
+		letter-spacing: 1px;
+	}
+	.header-nav{
+		padding: 40px 25px 0;
+	}
+	.nav-btn{
+		margin-left: 15px;
+		padding-left: 15px;
+	}
+	.slider-title{
+		font-size: 28px;
+		letter-spacing: 1px;
+	}
+	.slider-prev{
+		font-size: 22px;
+		letter-spacing: 1px;
+	}
+	.slider-descr{
+		font-size: 16px;
+		line-height: 34px;
+	}
+	.portfolio-item, .portfolio-image{
+		width: 100%;
+		height: 100%;
+		max-width: 400px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.bridge-more{
+		margin-top: 25px;
+	}
+	.bridge-text{
+		font-size: 18px;
+		line-height: 34px;
+	}
+	.news-link{
+		font-size: 14px;
+		line-height: 34px;
+	}
+	.news-image{
+		width: 100%;
+	}
+	.team-item{
+		display: flex;
+		flex-direction: column;
+	}
+	.team-picture{
+		height: 100%;
+	}
+	.team-image{
+		width: 100%;
+		height: 100%;
+	}
+	.team-hide{
+		width: 100%;
+		height: 100%;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.team-item:hover .team-hide{
+		display: flex;
+	}
+	.team-hide-descr{
+		line-height: 20px;
+		padding: 10px;
+		font-size: 12px;
+	}
+	.personal{
+		margin: 10px auto;
+	}
+	.personal-icon{
+		width: 20px;
+		height: 20px;
+	}
+	.personal-item+.personal-item{
+		margin-left: 5px;
+	}
+	.skills-title{
+		font-size: 16px;
+		line-height: 34px;
+		letter-spacing: 0px;
+	}
+	.happy-list{
+		flex-direction: column;
+	}
+	.happy-text{
+		margin-left: 25px;
+	}
+	.happy-num{
+		font-size: 30px;
+	}
+	.happy-whois{
+		font-size: 12px;
+	}
+	.reviews-text{
+		font-size: 14px;
+		line-height: 26px;
+	}
+	.reviews-name{
+		font-size: 16px;
+		line-height: 34px;
+	}
+	.reviews-company{
+		font-size: 14px;
+		line-height: 26px;
+	}
+	.links-text,
+	.latest-link,
+	.map-text{
+		font-size: 14px;
+		line-height: 28px;
+	}
+	.personal.webs{
+		margin: 0;
+	}
+	.map-info{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media (min-width: 1140px){ 
+	.nav-list{
+		display: flex !important;
+	}
+}
